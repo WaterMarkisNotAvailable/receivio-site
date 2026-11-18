@@ -1,7 +1,11 @@
 # Receivio site
 
 Landing page for Receivio, our capstone smart parcel receiving vault.
-Plain HTML, CSS and JavaScript; no build step. Served by GitHub Pages at
+Plain HTML, CSS and JavaScript; no build step.
+
+Live at **https://receivio.netlify.app/**. Netlify is connected to this
+repo, so every push to `main` redeploys the site within a minute or two.
+GitHub Pages also serves a copy at
 https://watermarkisnotavailable.github.io/receivio-site/
 
 ## Publish a new APK
