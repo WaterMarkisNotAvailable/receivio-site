@@ -1,0 +1,5 @@
+# Web version of the app lives in /app (copied from the app repo's
+# `npm run build:web` output). Netlify serves /app/auth from auth.html on
+# its own; these rules cover routes with no file of their own.
+/app/delivery/*  /app/delivery/[id].html  200
+/app/*           /app/+not-found.html     404

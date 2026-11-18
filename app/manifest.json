@@ -1,0 +1,15 @@
+{
+  "name": "Receivio",
+  "short_name": "Receivio",
+  "description": "Reserve a Receivio vault slot and track your parcels.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#8FA31E",
+  "background_color": "#F9FBF4",
+  "icons": [
+    { "src": "icons/icon-192.png", "type": "image/png", "sizes": "192x192" },
+    { "src": "icons/icon-512.png", "type": "image/png", "sizes": "512x512" }
+  ]
+}

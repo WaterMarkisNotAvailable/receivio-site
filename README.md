@@ -23,6 +23,20 @@ So a new version needs no change to the page:
 3. On this repo: **Releases → Draft a new release**, create a tag (for example `v1.0.1`),
    attach `receivio.apk`, and click **Publish release**.
 
+## Update the web app (iPhone version)
+
+`app/` is the web build of the Receivio app, served at
+https://receivio.netlify.app/app/. It is generated, so don't edit it by hand.
+To update it, in the app repo (`MyFirstApp`):
+
+```bash
+npm run build:web
+rsync -a --delete dist/ ../receivio-site/app/
+```
+
+Then commit and push this repo. `_redirects` makes deep links such as
+`/app/delivery/12` work on Netlify.
+
 ## Edit the page
 
 - `index.html` — all text and sections

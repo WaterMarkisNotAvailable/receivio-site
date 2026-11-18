@@ -691,6 +691,19 @@ h2 {
   margin: 36px 0 12px;
 }
 
+.sub.install-ios {
+  margin-top: 56px;
+}
+
+.fine + .fine {
+  margin-top: 4px;
+}
+
+.fine a {
+  color: var(--primary-dark);
+  font-weight: 600;
+}
+
 .abstract p + p {
   margin-top: 14px;
 }
