@@ -4,27 +4,6 @@ Landing page for Receivio, our capstone smart parcel receiving vault.
 Plain HTML, CSS and JavaScript; no build step. Served by GitHub Pages at
 https://watermarkisnotavailable.github.io/receivio-site/
 
-## Turn on the download
-
-The page currently shows **App coming soon** instead of a download button,
-because the app is still being finished and tested. When the first APK is
-released (see below):
-
-1. In `index.html`, replace both `<span class="btn btn-soon" ...>...</span>`
-   blocks with:
-
-   ```html
-   <a class="btn btn-primary"
-      href="https://github.com/WaterMarkisNotAvailable/receivio-site/releases/latest/download/receivio.apk">
-     <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0l-5-5m5 5l5-5M5 21h14"/></svg>
-     Download APK
-   </a>
-   ```
-
-2. Delete the `<p class="note soon-note">` paragraph in the Install section.
-3. In the hero, change the ghost button to `<a class="btn btn-ghost" href="#install">How to install</a>`
-   and the fine print to `Android 7.0 or newer · Free · Capstone prototype`.
-
 ## Publish a new APK
 
 The Download button always points to:
